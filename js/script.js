@@ -1,7 +1,7 @@
 const calculateExpense = () => {
-    const income = document.querySelector("income").value;
-    const food = document.querySelector("food").value;
-    const rent = document.querySelector("rent").value;
+    const income = document.querySelector("#income").value;
+    const food = document.querySelector("#food").value;
+    const rent = document.querySelector("#rent").value;
     const clothes = document.querySelectorAll("clothes").value;
   
     if (
